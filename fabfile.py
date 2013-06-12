@@ -16,25 +16,24 @@ from fabric.utils import abort
 def requirements():
     with settings(warn_only=True):
         pandoc = local('pandoc --version', capture=True)
-        rubber = local('rubber --version', capture=True)
+        if sys.platform.startswith('linux'):
+            rubber = local('rubber --version', capture=True)
 
     if pandoc.failed:
         print("pandoc was not found!!. Please install it "
               "from http://code.google.com/p/pandoc/downloads/list")
         abort("ABORTING!!")
-    else:
-        print('Ok! pandoc is installed \n')
 
-    if rubber.failed:
-        if sys.platform.startswith('linux'):
-            print("rubber was not found!!. Please install it with")
-            print('sudo apt-get install rubber')
-            abort("ABORTING!!")
-        else:
-            print('Ok! rubber is installed')
+    if sys.platform.startswith('linux') and rubber.failed:
+        print("rubber was not found!!. Please install it with")
+        print('sudo apt-get install rubber')
+        abort("ABORTING!!")
 
 
 def pdf():
+    # Call requirements to see if we can compile the file
+    requirements()
+
     # tmp dir for compilation
     if not osp.isdir('tmp'):
         os.mkdir('tmp')
@@ -50,9 +49,14 @@ def pdf():
         shutil.copyfile('talk.tex', 'tmp' + osp.sep + 'talk.tex')
         os.chdir('tmp')
         local('pdflatex main.tex')
-        local('pdflatex main.tex')   # Twice the get the TOC
+        local('pdflatex main.tex')   # Twice to get the TOC
         os.chdir('..')
 
     # Moving pdf to root
     shutil.copyfile('tmp' + osp.sep + 'main.pdf', 'main.pdf')
 
+
+def clean():
+    os.remove('talk.tex')
+    os.remove('main.pdf')
+    shutil.rmtree('tmp')
