@@ -59,4 +59,5 @@ def pdf():
 def clean():
     os.remove('talk.tex')
     os.remove('main.pdf')
+    os.remove('fabfile.pyc')
     shutil.rmtree('tmp')
