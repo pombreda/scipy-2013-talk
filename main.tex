@@ -1,0 +1,92 @@
+\documentclass[c, xcolor=dvipsnames, compress]{beamer}
+\usetheme{Warsaw}
+\setbeamertemplate{navigation symbols}{}
+\title{The Advantages of a Scientific IDE}
+\subtitle{SciPy 2013}
+\author{Carlos Cordoba}
+\institute{The Spyder Project}
+\date{June 26 2013}
+
+%  -------------------------- Preamble ------------------------
+
+% enables straight single quote
+\makeatletter
+\let \@sverbatim \@verbatim
+\def \@verbatim {\@sverbatim \verbatimplus}
+{\catcode`'=13 \gdef \verbatimplus{\catcode`'=13 \chardef '=13 }} 
+\makeatother
+
+
+% enables backticks in verbatim
+\makeatletter
+{\catcode`\`=13
+\xdef\@verbatim{\unexpanded\expandafter{\@verbatim}\chardef\noexpand`=18 }
+}
+\makeatother
+
+
+% Change horizontal and vertical spacing for bullets
+\usepackage{enumitem}
+\setitemize{label=\usebeamerfont*{itemize item}%
+  \usebeamercolor[fg]{itemize item}
+  \usebeamertemplate{itemize item}}
+  \setlist{leftmargin=*, labelindent=0.4cm, itemsep=0.35cm} %parsep=0.4cm, partopsep=0.4cm}
+
+
+% Beamer adjustments
+\pdfpageattr {/Group << /S /Transparency /I true /CS /DeviceRGB>>}
+\setbeamercovered{transparent}
+\setbeamertemplate{frametitle continuation}[from second]
+\setbeamertemplate{caption}[numbered]
+
+\setbeamertemplate{footline} {
+  \leavevmode%
+  \hbox{\begin{beamercolorbox}[wd=.7\paperwidth,ht=2.5ex,dp=1.125ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.5ex,dp=1.125ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}{Carlos Cordoba}%\insertshortauthor
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\setbeamertemplate{headline}
+{
+  \begin{beamercolorbox}{section in head/foot}
+    \usebeamerfont{section in head/foot}
+    \vskip2pt\insertsectionnavigationhorizontal{\paperwidth}{}{}\vskip2pt
+  \end{beamercolorbox}
+
+  \begin{beamercolorbox}[left,wd=\paperwidth]{subsection in head/foot}
+      \usebeamerfont{subsection in head/foot}
+      \insertsubsectionnavigationhorizontal{.5\textwidth}{}{}
+  \end{beamercolorbox}
+}
+
+
+
+% ------------------------ Document ----------------------------
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  %\center\url{http://code.google.com/p/spyderlib}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Outline}
+  \tableofcontents
+\end{frame}
+
+\AtBeginSection[]{
+  \frame<beamer>{ 
+    \frametitle{Outline}   
+    \tableofcontents[currentsection,currentsubsection] 
+  }
+}
+
+\input{"talk.tex"}
+
+\end{document}
+
