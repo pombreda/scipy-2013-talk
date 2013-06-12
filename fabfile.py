@@ -31,11 +31,11 @@ def requirements():
 
 
 def pdf():
-    # Call requirements to see if we can compile the file
-    requirements()
-
-    # tmp dir for compilation
+    # Create tmp dir for compilation
     if not osp.isdir('tmp'):
+        # Call requirements to see if we can compile the file, because
+        # if there isn't 'tmp' maybe it's the first compilation
+        requirements()
         os.mkdir('tmp')
 
     # From markdown to tex
