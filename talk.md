@@ -37,8 +37,7 @@
 \centering\includegraphics[width=2cm]{images/ipython-console.png}
 
 <!-- IPython has been the **traditional** entry point to the Python Scientific
-    Stack
--->
+    Stack -->
 
 * IPython is **great**!
 
@@ -59,6 +58,29 @@
 
 ## Configuration
 
+------- -------
+spy-img ipy-img
+------- -------
+
+### IPython
+  
+- **Need** `ipython create profile`
+- Lots of options, some repeated
+- Only apply on application **restart**
+
+\pause
+
+### Spyder
+
+- Fewer but more relevant options
+- Read IPython options too
+- Apply on new consoles
+
+
+## Sympy
+
+
+
 ## Ease of connection to external kernels
 
 
@@ -66,16 +88,74 @@
 
 # Beyond IPython (now)
 
-## Interactive help
-
 ## Variable Explorer
 
-## History Log
+* Easily inspect variables defined in each console
+
+* Edit them graphically
+
+* Plot them
+
+
+## Interactive help
+
+* Docstrings in rich text (with Sphinx)
+
+* Easily copy/paste doctests
+
+* Render Latex (through MathJax)
+
+
+## Debugging
+
+-------------- ----------------------
+db-toolbar-img breakpoints-plugin-img
+-------------- ----------------------
+
+* Debug toolbar
+
+* Connected to the Editor
+
+* Check all your breakpoints
 
 
 <!-- ----------------------------------------------- -->
 
 # Beyond IPython (in the future)
+
+## Better Help
+
+mma-doccenter-img
+
+* Add important tutorials/intros, like SciPy lectures
+
+* Auto-linking to `docs.python.org`
+
+* Search in docstrings (with Whoosh)
+
+* Show Matplotlib plots
+
+* Docstring automatic translation to French, Spanish, etc.
+
+
+## Notebook plugin
+
+nb-img
+
+* A real desktop application
+
+* Connected to our other plugins
+
+* We have a **prototype**, waiting for multi-directory support (IPEP 16)
+
+
+## Package Manager
+
+stallion-img
+
+* `conda` for scientific packages
+
+* `stallion` for everything else
 
 
 ## Thank You
@@ -88,5 +168,7 @@
 
 <!--  LocalWords:  Raybaut LocalWords Spyder IPython Multiplatform IDE LOC png
 -->
-<!--  LocalWords:  Mathematica WinPython Matlab ipython includegraphics
+<!--  LocalWords:  Mathematica WinPython Matlab ipython includegraphics Sympy
  -->
+
+<!-- Local IspellDict: english -->
