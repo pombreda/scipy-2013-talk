@@ -27,7 +27,7 @@
     
     - Developed with Qt
     - Native Mac App
-    - Great support on Windows: Python(X,Y) / WinPython
+    - Great support on Windows: Python(x,y) / WinPython
 
 * Next version (2.3) will have support for Python 3
 
