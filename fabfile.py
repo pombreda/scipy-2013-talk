@@ -4,6 +4,8 @@ To compile this presentation run
 fab pdf
 """
 
+from __future__ import print_function
+
 import fileinput
 import os
 import os.path as osp
@@ -42,7 +44,7 @@ def preprocess_talk():
     shutil.copyfile('talk.md', tmp_talk)
     for line in fileinput.input(tmp_talk, inplace=True):
         if not fileinput.filelineno() == 1:
-            print(line)
+            print(line, end='')
 
 
 def pdf():
