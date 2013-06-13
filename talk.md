@@ -32,12 +32,17 @@
 * Next version (2.3) will have support for Python 3
 
 
-## Why a scientific IDE for Python?
+## Why a scientific IDE?
 
-* IPython has been the **traditional** entry point to the Python Scientific
-  Stack
+\centering\includegraphics[width=2cm]{images/ipython-console.png}
+
+<!-- IPython has been the **traditional** entry point to the Python Scientific
+    Stack
+-->
 
 * IPython is **great**!
+
+\pause
 
 * **But** a great way to **evaluate** and **document** your code
 
@@ -45,7 +50,7 @@
 
 * We need a simpler, more intuitive tool
   
-      - To gain **wider adoption** by being closer to Matlab and Mathematica
+      - To gain **wider adoption**
       - For **teaching**
 
 <!-- ----------------------------------------------- -->
@@ -81,7 +86,7 @@
 
 
 
-<!--  LocalWords:  Raybaut LocalWords Spyder IPython Multiplatform IDE LOC
+<!--  LocalWords:  Raybaut LocalWords Spyder IPython Multiplatform IDE LOC png
 -->
-<!--  LocalWords:  Mathematica WinPython Matlab
+<!--  LocalWords:  Mathematica WinPython Matlab ipython includegraphics
  -->
