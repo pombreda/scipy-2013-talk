@@ -4,3 +4,4 @@ syntax: glob
 rmarkdown-rmeetup-2012-master
 tmp
 talk.tex
+rst2beamer*
