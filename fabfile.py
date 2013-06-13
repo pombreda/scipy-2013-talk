@@ -4,6 +4,7 @@ To compile this presentation run
 fab pdf
 """
 
+import fileinput
 import os
 import os.path as osp
 import shutil
@@ -30,6 +31,20 @@ def requirements():
         abort("ABORTING!!")
 
 
+def preprocess_talk():
+    """
+    Erase first line because it produces an empty slide.
+
+    That line just contains an Emacs instruction to preload several modes by
+    default
+    """
+    tmp_talk = 'tmp' + osp.sep + 'talk.md'
+    shutil.copyfile('talk.md', tmp_talk)
+    for line in fileinput.input(tmp_talk, inplace=True):
+        if not fileinput.filelineno() == 1:
+            print(line)
+
+
 def pdf():
     # Create tmp dir for compilation
     if not osp.isdir('tmp'):
@@ -39,7 +54,9 @@ def pdf():
         os.mkdir('tmp')
 
     # From markdown to tex
-    local('pandoc talk.md --slide-level 2 -t beamer -o talk.tex')
+    preprocess_talk()
+    tmp_talk = 'tmp' + osp.sep + 'talk.md'
+    local('pandoc %s --slide-level 2 -t beamer -o talk.tex' % tmp_talk)
 
     # Compiling
     if sys.platform.startswith('linux'):
