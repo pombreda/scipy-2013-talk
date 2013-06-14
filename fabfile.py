@@ -1,5 +1,5 @@
 """
-To compile this presentation run
+To compile talk.md run
 
 fab pdf
 """
@@ -37,7 +37,7 @@ def requirements():
 
 def preprocess_talk():
     """
-    Erase the first line of talk.md because it produces an empty slide.
+    Erase the first line of talk.md because it produces an empty slide
 
     That line just contains an Emacs instruction to preload several modes by
     default
@@ -50,7 +50,7 @@ def preprocess_talk():
 
 
 def pdf():
-    """Compile to pdf"""
+    """Compile talk.md to pdf"""
 
     # Create tmp dir for compilation
     if not osp.isdir('tmp'):
@@ -80,6 +80,7 @@ def pdf():
 
 
 def clean():
+    """Remove temp files and dirs"""
     os.remove('talk.tex')
     os.remove('main.pdf')
     os.remove('fabfile.pyc')
