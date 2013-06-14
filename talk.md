@@ -123,19 +123,21 @@ db-toolbar-img breakpoints-plugin-img
 
 # Beyond IPython (in the future)
 
-## Better Help
+## Better Help / Documentation Center
 
 mma-doccenter-img
+
+* Add docs for the main language keywords (`if`, `for`, `yield`, etc)
 
 * Add important tutorials/intros, like SciPy lectures
 
 * Auto-linking to `docs.python.org`
 
-* Search in docstrings (with Whoosh)
+* Search in docstrings (with `Whoosh`)
 
 * Show Matplotlib plots
 
-* Docstring automatic translation to French, Spanish, etc.
+* Automatic translation to French, Spanish, etc.
 
 
 ## Notebook plugin
