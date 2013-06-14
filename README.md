@@ -1,5 +1,5 @@
 
-# The advantages of a scientific IDE
+# The advantages of a scientific IDE (SciPy 2013)
 
 These are the markdown and latex sources for my SciPy 2013 talk.
 
@@ -16,7 +16,7 @@ To build it you need to:
 
 5. On this directory run
 
-`fab pdf`
+    `fab pdf`
 
 6. This should generate a file called `main.pdf` that contains the presentation
    in Beamer format
