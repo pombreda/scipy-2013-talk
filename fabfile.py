@@ -17,6 +17,8 @@ from fabric.utils import abort
 
 
 def requirements():
+    """Check if compilation requirements are met"""
+
     with settings(warn_only=True):
         pandoc = local('pandoc --version', capture=True)
         if sys.platform.startswith('linux'):
@@ -35,7 +37,7 @@ def requirements():
 
 def preprocess_talk():
     """
-    Erase first line because it produces an empty slide.
+    Erase the first line of talk.md because it produces an empty slide.
 
     That line just contains an Emacs instruction to preload several modes by
     default
@@ -48,6 +50,8 @@ def preprocess_talk():
 
 
 def pdf():
+    """Compile to pdf"""
+
     # Create tmp dir for compilation
     if not osp.isdir('tmp'):
         # Call requirements to see if we can compile the file, because
