@@ -14,9 +14,7 @@ To build it you need to:
 4. On Linux, install `rubber` (`sudo apt-get install rubber` should do it on
    Ubuntu)
 
-5. On this directory run
-
-    `fab pdf`
+5. On this directory run `fab pdf` in a terminal.
 
 6. This should generate a file called `main.pdf` that contains the presentation
    in Beamer format
