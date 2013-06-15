@@ -69,6 +69,24 @@
 % Change monospace font
 \usepackage{courier}
 
+% To draw keystrokes
+\usepackage{tikz}
+\usetikzlibrary{shadows}
+
+\newcommand*\keystroke[1]{%
+  \tikz[baseline=(key.base)]
+  \node[%
+    draw,
+    fill=white,
+    drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black,opacity=0.75},
+    rectangle,
+    rounded corners=1.5pt,
+    inner sep=1pt,
+    line width=0.5pt,
+    font=\scriptsize\ttfamily
+  ](key) {#1\strut}
+  ;
+}
 
 % ------------------------ Document ----------------------------
 
