@@ -85,9 +85,10 @@
 \end{frame}
 
 \AtBeginSection[]{
-  \frame<beamer>{ 
-    \frametitle{Outline}   
-    \tableofcontents[currentsection,currentsubsection] 
+  \frame<beamer>[noframenumbering]{ 
+    \frametitle{Outline}
+    \addtocounter{framenumber}{0}
+    \tableofcontents[currentsection, currentsubsection]
   }
 }
 
