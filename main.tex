@@ -9,6 +9,7 @@
 
 %  -------------------------------------- PREAMBLE -------------------------------------
 
+% pandoc use this one for tables
 \usepackage{longtable}
 
 % enables straight single quote
@@ -89,6 +90,11 @@
   ;
 }
 
+
+% Don't add spaces around lontable's
+% From http://tex.stackexchange.com/q/5683
+\setlength{\LTpre}{3pt}
+\setlength{\LTpost}{-4pt}
 
 
 % ------------------------------------- DOCUMENT ---------------------------------------
