@@ -88,6 +88,21 @@ spy-img ipy-img
 
 # Beyond IPython (now)
 
+## An Integrated Editor
+
+editor-img
+
+* Great code completion (on imports too) $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{Space}
+
+* Flags errors and warnings
+
+* Connected to IPython consoles
+
+* Quick access to docs  $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{I}
+
+* Go to definition $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{Left click}+ `name`
+
+
 ## Variable Explorer
 
 * Easily inspect variables defined in each console
