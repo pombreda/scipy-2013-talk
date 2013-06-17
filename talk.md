@@ -58,24 +58,18 @@
 
 ## Configuration
 
-\newcommand{\spyPrefs}{\includegraphics[width=4.0cm]{images/spy_prefs.png}}
-\newcommand{\ipyPrefs}{\includegraphics[width=4.0cm]{images/ipy_prefs.png}}
+\newcommand{\spyPrefs}{\includegraphics[width=5cm]{images/spy_prefs.png}}
+\newcommand{\ipyPrefs}{\includegraphics[width=5cm]{images/ipy_prefs.png}}
 
-\centering{\spyPrefs \quad \quad \ipyPrefs}
-
-### IPython
-  
-- **Need** `ipython create profile`
-- Lots of options, some repeated
-- Only apply on application **restart**
-
-\pause
-
-### Spyder
-
-- Fewer but more relevant options
-- Read IPython options too
-- Apply on new consoles
++---------------------------------------+---------------------------------------+
+|                                       |                                       |
+|  \centering{\ipyPrefs}                |  \centering{\spyPrefs}                |
+|                                       |                                       |
+|  - **Need** `ipython create profile`  |  - Set trough our **GUI**             |
+|  - **Lots** of options                |  - **Fewer** but more relevant options|
+|  - Only apply on **restart**          |  - Apply on **new** consoles          |
+|                                       |                                       |
++---------------------------------------+---------------------------------------+
 
 
 ## Sympy
