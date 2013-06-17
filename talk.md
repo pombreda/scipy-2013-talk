@@ -58,9 +58,10 @@
 
 ## Configuration
 
-------- -------
-spy-img ipy-img
-------- -------
+\newcommand{\spyPrefs}{\includegraphics[width=4.0cm]{images/spy_prefs.png}}
+\newcommand{\ipyPrefs}{\includegraphics[width=4.0cm]{images/ipy_prefs.png}}
+
+\centering{\spyPrefs \quad \quad \ipyPrefs}
 
 ### IPython
   
@@ -105,6 +106,10 @@ editor-img
 
 ## Variable Explorer
 
+------ ----------------
+ve-img array-editor-img
+------ ----------------
+
 * Easily inspect variables defined in each console
 
 * Edit them graphically
@@ -113,6 +118,8 @@ editor-img
 
 
 ## Interactive help
+
+oi-img
 
 * Docstrings in rich text (with Sphinx)
 
