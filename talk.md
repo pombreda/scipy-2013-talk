@@ -54,7 +54,7 @@
 
 <!-- ----------------------------------------------- -->
 
-# Complementing IPython
+# Easing IPython
 
 ## Configuration
 
@@ -101,7 +101,7 @@
 
 <!-- ----------------------------------------------- -->
 
-# Beyond IPython (now)
+# Complementing IPython (now)
 
 ## An Integrated Editor
 
@@ -157,7 +157,7 @@ db-toolbar-img breakpoints-plugin-img
 
 <!-- ----------------------------------------------- -->
 
-# Beyond IPython (in the future)
+# Complementing IPython (in the future)
 
 ## Better Help / Documentation Center
 
