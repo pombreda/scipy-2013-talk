@@ -47,7 +47,7 @@
 
     \pause
 
-* It could be nicer if it would be:
+* **Nicer** if it would be:
     
     - Less dependent on the **command-line**
     - **Easier** to configure
@@ -110,9 +110,9 @@
 
 # Complementing IPython (now)
 
-## An Integrated Editor
+## An integrated Editor
 
-editor-img
+\centering{\includegraphics[height=3.8cm]{images/editor.png}}
 
 * Great code completion (on imports too) $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{Space}
 
@@ -170,7 +170,7 @@ db-toolbar-img breakpoints-plugin-img
 
 mma-doccenter-img
 
-* Add docs for the main language keywords (`if`, `for`, `yield`, etc)
+* Add docs for the language keywords (`if`, `for`, `yield`, etc)
 
 * Add important tutorials/intros, like SciPy lectures
 
