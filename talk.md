@@ -74,9 +74,29 @@
 
 ## Sympy
 
+\newcommand{\sympy}{\includegraphics[width=5cm]{images/spy_sympy.png}}
+
++---------------------------------------+---------------------------------------+
+|  **IPython**                          |  **Spyder**                           |
+|                                       |                                       |
+|  - `ipython create profile sympy`     |  \vspace{0.2cm}                       |
+|  - `ipython qtconsole --profile sympy`|  \centering{\sympy}                   |
+|                                       |                                       |
++---------------------------------------+---------------------------------------+
 
 
 ## Ease of connection to external kernels
+
+\newcommand{\kernels}{\includegraphics[width=5cm]{images/spy_ext_kernels.png}}
+
++---------------------------------------+---------------------------------------+
+|  **IPython**                          |  **Spyder**                           |
+|                                       |                                       |
+|  - `ipython --existing`               |  \vspace{0.2cm}                       |
+|  - `%qtconsole`                       |  \centering{\kernels}                 |
+|  - No notebooks to external kernels   |                                       |
+|                                       |                                       |
++---------------------------------------+---------------------------------------+
 
 
 <!-- ----------------------------------------------- -->
