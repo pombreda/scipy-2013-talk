@@ -41,16 +41,23 @@
 
 * IPython is **great**!
 
-\pause
+    \pause
 
-* **But** a great way to **evaluate** and **document** your code
+* A great way to **evaluate** and **document** your code
 
-* It's too **command-line** oriented
+    \pause
 
-* We need a simpler, more intuitive tool
-  
-      - To gain **wider adoption**
-      - For **teaching**
+* It could be nicer if it would be:
+    
+    - Less dependent on the **command-line**
+    - **Easier** to configure
+    - More **integrated** with other tools
+      
+    \pause
+     
+* Spyder tries to do that!
+
+    - By **embedding** and **complementing** it
 
 <!-- ----------------------------------------------- -->
 
@@ -85,7 +92,7 @@
 +---------------------------------------+---------------------------------------+
 
 
-## Ease of connection to external kernels
+## Connection to external kernels
 
 \newcommand{\kernels}{\includegraphics[width=5cm]{images/spy_ext_kernels.png}}
 
