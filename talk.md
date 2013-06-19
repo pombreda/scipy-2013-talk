@@ -127,9 +127,12 @@
 
 ## Variable Explorer
 
------- ----------------
-ve-img array-editor-img
------- ----------------
+\newcommand{\varExp}{\includegraphics[height=4.0cm]{images/variable_explorer.png}}
+\newcommand{\arrayEd}{\includegraphics[height=4.0cm]{images/array_editor.png}}
+
+------- --------
+\varExp \arrayEd
+------- --------
 
 * Easily inspect variables defined in each console
 
@@ -217,3 +220,5 @@ stallion-img
  -->
 
 <!-- Local IspellDict: english -->
+<!--  LocalWords:  newcommand
+ -->
