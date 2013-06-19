@@ -143,7 +143,7 @@
 
 ## Interactive help
 
-oi-img
+\centering{\includegraphics[height=4.8cm]{images/object_inspector.png}}
 
 * Docstrings in rich text (with Sphinx)
 
@@ -154,9 +154,15 @@ oi-img
 
 ## Debugging
 
--------------- ----------------------
-db-toolbar-img breakpoints-plugin-img
--------------- ----------------------
+\newcommand{\dbToolbar}{\includegraphics[height=2.0cm]{images/db_toolbar.png}}
+\newcommand{\bpsPlugin}{\includegraphics[width=5.0cm]{images/bps_plugin.png}}
+
++---------------------------------------+---------------------------------------+
+|                                       |                                       |
+|  \vspace{-2.3cm}                      |  \bpsPlugin                           |
+|  \centering{\dbToolbar}               |                                       |
+|                                       |                                       |
++---------------------------------------+---------------------------------------+
 
 * Debug toolbar
 
