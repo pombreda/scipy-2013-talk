@@ -44,7 +44,7 @@
 <!-- IPython has been the **traditional** entry point to the Python Scientific
     Stack -->
 
-* IPython is **great**!
+* If IPython is **great**!
 
     \pause
 
@@ -52,7 +52,7 @@
 
     \pause
 
-* **Nicer** if it would be:
+* **Nicer** if it'd be:
     
     - Less dependent on the **command-line**
     - **Easier** to configure
@@ -60,9 +60,9 @@
       
     \pause
      
-* Spyder tries to do that!
+* Also to gain **wider adoption**
 
-    - By **embedding** and **complementing** it
+    - Closer to the big M's: **Matlab** and **Mathematica**
 
 <!-- ----------------------------------------------- -->
 
