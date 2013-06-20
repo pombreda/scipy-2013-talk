@@ -182,19 +182,20 @@
 
 # Getting closer to Mathematica
 
-## Better Help / Documentation Center
+## Documentation Center
 
-mma-doccenter-img
+\newcommand{\mma}{\includegraphics[width=6.0cm]{images/mma_doc_center.png}}
+\newcommand{\docsMma}{\includegraphics[width=4.4cm]{images/mma_docs.png}}
+
+\mma \quad \docsMma
 
 * Add docs for the language keywords (`if`, `for`, `yield`, etc)
 
 * Add important tutorials/intros, like SciPy lectures
 
-* Auto-linking to `docs.python.org`
+* Auto-linking to **docs.python.org**
 
-* Search in docstrings (with `Whoosh`)
-
-* Show Matplotlib plots
+* Search in docstrings (with **Whoosh**)
 
 * Automatic translation to French, Spanish, etc.
 
@@ -239,5 +240,5 @@ stallion-img
  -->
 <!--  LocalWords:  Docstrings doctests dbToolbar bpsPlugin SciPy docstrings
  -->
-<!--  LocalWords:  Matplotlib conda textbf ccordoba
+<!--  LocalWords:  Matplotlib conda textbf ccordoba mma docsMma
  -->
