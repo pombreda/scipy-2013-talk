@@ -4,6 +4,8 @@
 
 ## Who am I?
 
+\centering{\textbf{@ccordoba12}}
+
 * MSc from National University of Colombia
 
 * Heavy Mathematica user and developer for 6 years
@@ -237,5 +239,5 @@ stallion-img
  -->
 <!--  LocalWords:  Docstrings doctests dbToolbar bpsPlugin SciPy docstrings
  -->
-<!--  LocalWords:  Matplotlib conda
+<!--  LocalWords:  Matplotlib conda textbf ccordoba
  -->
