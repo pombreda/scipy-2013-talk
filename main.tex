@@ -1,0 +1,132 @@
+\documentclass[c, xcolor=dvipsnames, compress]{beamer}
+\usetheme{Warsaw}
+\setbeamertemplate{navigation symbols}{}
+\title{The Advantages of a Scientific IDE}
+\subtitle{SciPy 2013}
+\author{Carlos Cordoba}
+\institute{The Spyder Project}
+\date{June 26 2013}
+
+%  -------------------------------------- PREAMBLE -------------------------------------
+
+% pandoc use this one for tables
+\usepackage{longtable}
+
+% enables straight single quote
+\makeatletter
+\let \@sverbatim \@verbatim
+\def \@verbatim {\@sverbatim \verbatimplus}
+{\catcode`'=13 \gdef \verbatimplus{\catcode`'=13 \chardef '=13 }} 
+\makeatother
+
+
+% enables backticks in verbatim
+\makeatletter
+{\catcode`\`=13
+\xdef\@verbatim{\unexpanded\expandafter{\@verbatim}\chardef\noexpand`=18 }
+}
+\makeatother
+
+
+% Change horizontal and vertical spacing for bullets
+\usepackage{enumitem}
+\setitemize{label=\usebeamerfont*{itemize item}%
+  \usebeamercolor[fg]{itemize item}
+  \usebeamertemplate{itemize item}}
+  \setlist{leftmargin=*, labelindent=0.4cm, itemsep=0.35cm}
+
+
+% Beamer adjustments
+\pdfpageattr {/Group << /S /Transparency /I true /CS /DeviceRGB>>}
+\setbeamercovered{transparent}
+\setbeamertemplate{frametitle continuation}[from second]
+\setbeamertemplate{caption}[numbered]
+
+\setbeamertemplate{footline} {
+  \leavevmode%
+  \hbox{\begin{beamercolorbox}[wd=.7\paperwidth,ht=2.5ex,dp=1.125ex,center]{title in head/foot}%
+    \usebeamerfont{title in head/foot}\insertshorttitle
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[wd=.3\paperwidth,ht=2.5ex,dp=1.125ex,center]{author in head/foot}%
+    \usebeamerfont{author in head/foot}\insertshortauthor\hfill\insertframenumber\,/\,\inserttotalframenumber
+  \end{beamercolorbox}}%
+  \vskip0pt%
+}
+
+\setbeamertemplate{headline}
+{
+  \begin{beamercolorbox}{section in head/foot}
+    \usebeamerfont{section in head/foot}
+    \vskip2pt\insertsectionnavigationhorizontal{\paperwidth}{}{}\vskip2pt
+  \end{beamercolorbox}
+
+  \begin{beamercolorbox}[left,wd=\paperwidth]{subsection in head/foot}
+      \usebeamerfont{subsection in head/foot}
+      \insertsubsectionnavigationhorizontal{.5\textwidth}{}{}
+  \end{beamercolorbox}
+}
+
+
+% Change monospace font
+\usepackage{courier}
+
+
+% To draw keystrokes
+\usepackage{tikz}
+\usetikzlibrary{shadows}
+
+\newcommand*\keystroke[1]{%
+  \tikz[baseline=(key.base)]
+  \node[%
+    draw,
+    fill=white,
+    drop shadow={shadow xshift=0.25ex,shadow yshift=-0.25ex,fill=black,opacity=0.75},
+    rectangle,
+    rounded corners=1.5pt,
+    inner sep=1pt,
+    line width=0.5pt,
+    font=\scriptsize\ttfamily
+  ](key) {#1\strut}
+  ;
+}
+
+
+% Don't add spaces around lontable's
+% From http://tex.stackexchange.com/q/5683
+\setlength{\LTpre}{-2pt}
+\setlength{\LTpost}{-4pt}
+
+
+% To eliminate borders around tables
+\usepackage{colortbl}
+
+
+% ------------------------------------- DOCUMENT ---------------------------------------
+
+\begin{document}
+
+\begin{frame}
+  \titlepage
+  %\center\url{http://code.google.com/p/spyderlib}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Outline}
+  \tableofcontents
+\end{frame}
+
+\AtBeginSection[]{
+  \frame<beamer>[noframenumbering]{ 
+    \frametitle{Outline}
+    \addtocounter{framenumber}{0}
+    \tableofcontents[currentsection, currentsubsection]
+  }
+}
+
+% To eliminate borders around tables
+\arrayrulecolor{white}
+
+\input{"talk.tex"}
+
+\end{document}
+
