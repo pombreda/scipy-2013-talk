@@ -224,12 +224,18 @@ stallion-img
 \end{center}
 
 
+<!-- Local IspellDict: english -->
+
 
 <!--  LocalWords:  Raybaut LocalWords Spyder IPython Multiplatform IDE LOC png
 -->
 <!--  LocalWords:  Mathematica WinPython Matlab ipython includegraphics Sympy
  -->
-
-<!-- Local IspellDict: english -->
-<!--  LocalWords:  newcommand spyLogo
+<!--  LocalWords:  newcommand spyLogo qquad spyPrefs ipyPrefs ipy prefs sympy
+ -->
+<!--  LocalWords:  varExp arrayEd qtconsole vspace Longrightarrow Ctrl MathJax
+ -->
+<!--  LocalWords:  Docstrings doctests dbToolbar bpsPlugin SciPy docstrings
+ -->
+<!--  LocalWords:  Matplotlib conda
  -->
