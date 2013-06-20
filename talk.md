@@ -44,7 +44,7 @@
 <!-- IPython has been the **traditional** entry point to the Python Scientific
     Stack -->
 
-* If IPython is **great**!
+* If IPython is **great**
 
     \pause
 
@@ -60,7 +60,7 @@
       
     \pause
      
-* Also to gain **wider adoption**
+* **Also** to gain **wider adoption**
 
     - Closer to the big M's: **Matlab** and **Mathematica**
 
