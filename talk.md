@@ -150,11 +150,11 @@
 
 \centering{\includegraphics[height=4.8cm]{images/object_inspector.png}}
 
-* Docstrings in rich text (with Sphinx)
+* Docstrings in rich text (with **Sphinx**)
 
 * Easily copy/paste doctests
 
-* Render Latex (through MathJax)
+* Render Latex (through **MathJax**)
 
 
 ## Debugging
