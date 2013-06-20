@@ -155,7 +155,7 @@
 ## Debugging
 
 \newcommand{\dbToolbar}{\includegraphics[height=2.0cm]{images/db_toolbar.png}}
-\newcommand{\bpsPlugin}{\includegraphics[width=5.0cm]{images/bps_plugin.png}}
+\newcommand{\bpsPlugin}{\includegraphics[width=5.2cm]{images/bps_plugin.png}}
 
 +---------------------------------------+---------------------------------------+
 |                                       |                                       |
