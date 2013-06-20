@@ -113,7 +113,7 @@
 
 <!-- ----------------------------------------------- -->
 
-# Complementing IPython (now)
+# Sharing with Matlab
 
 ## An integrated Editor
 
@@ -178,7 +178,7 @@
 
 <!-- ----------------------------------------------- -->
 
-# Complementing IPython (in the future)
+# Getting closer to Mathematica
 
 ## Better Help / Documentation Center
 
