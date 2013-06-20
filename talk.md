@@ -17,19 +17,24 @@
 
 ## The Spyder IDE
 
-* Created by Pierre Raybaut
+\newcommand{\spyLogo}{\includegraphics[width=2.3cm]{images/spy_logo.png}}
+\newcommand{\Pierre}{\includegraphics[width=2.3cm]{images/Pierre.png}}
 
-* Started in 2009
+\centering{\spyLogo \qquad \qquad \Pierre}
 
-* 30000 LOC
+* Created by **Pierre Raybaut**
+
+* Started in **2009**
+
+* **30000** LOC
 
 * Multiplatform
     
-    - Developed with Qt
-    - Native Mac App
-    - Great support on Windows: Python(x,y) / WinPython
+    - Developed with **Qt**
+    - **Native** Mac App
+    - Great support on **Windows**: Python(x,y) / WinPython
 
-* Next version (2.3) will have support for Python 3
+* Next version (2.3) will have support for **Python 3**
 
 
 ## Why a scientific IDE?
@@ -226,5 +231,5 @@ stallion-img
  -->
 
 <!-- Local IspellDict: english -->
-<!--  LocalWords:  newcommand
+<!--  LocalWords:  newcommand spyLogo
  -->
