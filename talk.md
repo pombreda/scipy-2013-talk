@@ -182,6 +182,17 @@
 
 # Getting closer to Mathematica
 
+## Notebook plugin
+
+nb-img
+
+* A real desktop application
+
+* Connected to our other plugins
+
+* We have a **prototype**, waiting for multi-directory support (IPEP 16)
+
+
 ## Documentation Center
 
 \newcommand{\mma}{\includegraphics[width=6.0cm]{images/mma_doc_center.png}}
@@ -198,17 +209,6 @@
 * Search in docstrings (with **Whoosh**)
 
 * Automatic translation to French, Spanish, etc.
-
-
-## Notebook plugin
-
-nb-img
-
-* A real desktop application
-
-* Connected to our other plugins
-
-* We have a **prototype**, waiting for multi-directory support (IPEP 16)
 
 
 ## Package Manager
