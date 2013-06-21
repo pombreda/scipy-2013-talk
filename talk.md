@@ -4,6 +4,8 @@
 
 ## Who am I?
 
+\centering{\textbf{@ccordoba12}}
+
 * MSc from National University of Colombia
 
 * Heavy Mathematica user and developer for 6 years
@@ -17,19 +19,24 @@
 
 ## The Spyder IDE
 
-* Created by Pierre Raybaut
+\newcommand{\spyLogo}{\includegraphics[width=2.3cm]{images/spy_logo.png}}
+\newcommand{\Pierre}{\includegraphics[width=2.3cm]{images/Pierre.png}}
 
-* Started in 2009
+\centering{\spyLogo \qquad \qquad \Pierre}
 
-* 30000 LOC
+* Created by **Pierre Raybaut**
+
+* Started in **2009**
+
+* **30000** LOC
 
 * Multiplatform
     
-    - Developed with Qt
-    - Native Mac App
-    - Great support on Windows: Python(x,y) / WinPython
+    - Developed with **Qt**
+    - **Native** Mac App
+    - Great support on **Windows**: Python(x,y) / WinPython
 
-* Next version (2.3) will have support for Python 3
+* Next version (2.3) will have support for **Python 3**
 
 
 ## Why a scientific IDE?
@@ -39,7 +46,7 @@
 <!-- IPython has been the **traditional** entry point to the Python Scientific
     Stack -->
 
-* IPython is **great**!
+* If IPython is **great**
 
     \pause
 
@@ -47,7 +54,7 @@
 
     \pause
 
-* **Nicer** if it would be:
+* **Nicer** if it'd be:
     
     - Less dependent on the **command-line**
     - **Easier** to configure
@@ -55,9 +62,9 @@
       
     \pause
      
-* Spyder tries to do that!
+* **Also** to gain **wider adoption**
 
-    - By **embedding** and **complementing** it
+    - Closer to the big M's: **Matlab** and **Mathematica**
 
 <!-- ----------------------------------------------- -->
 
@@ -108,7 +115,7 @@
 
 <!-- ----------------------------------------------- -->
 
-# Complementing IPython (now)
+# Sharing with Matlab
 
 ## An integrated Editor
 
@@ -145,17 +152,17 @@
 
 \centering{\includegraphics[height=4.8cm]{images/object_inspector.png}}
 
-* Docstrings in rich text (with Sphinx)
+* Docstrings in rich text (with **Sphinx**)
 
 * Easily copy/paste doctests
 
-* Render Latex (through MathJax)
+* Render Latex (through **MathJax**)
 
 
 ## Debugging
 
 \newcommand{\dbToolbar}{\includegraphics[height=2.0cm]{images/db_toolbar.png}}
-\newcommand{\bpsPlugin}{\includegraphics[width=5.0cm]{images/bps_plugin.png}}
+\newcommand{\bpsPlugin}{\includegraphics[width=5.2cm]{images/bps_plugin.png}}
 
 +---------------------------------------+---------------------------------------+
 |                                       |                                       |
@@ -173,24 +180,7 @@
 
 <!-- ----------------------------------------------- -->
 
-# Complementing IPython (in the future)
-
-## Better Help / Documentation Center
-
-mma-doccenter-img
-
-* Add docs for the language keywords (`if`, `for`, `yield`, etc)
-
-* Add important tutorials/intros, like SciPy lectures
-
-* Auto-linking to `docs.python.org`
-
-* Search in docstrings (with `Whoosh`)
-
-* Show Matplotlib plots
-
-* Automatic translation to French, Spanish, etc.
-
+# Getting closer to Mathematica
 
 ## Notebook plugin
 
@@ -201,6 +191,24 @@ nb-img
 * Connected to our other plugins
 
 * We have a **prototype**, waiting for multi-directory support (IPEP 16)
+
+
+## Documentation Center
+
+\newcommand{\mma}{\includegraphics[width=6.0cm]{images/mma_doc_center.png}}
+\newcommand{\docsMma}{\includegraphics[width=4.4cm]{images/mma_docs.png}}
+
+\mma \quad \docsMma
+
+* Add docs for the language keywords (`if`, `for`, `yield`, etc)
+
+* Add important tutorials/intros, like SciPy lectures
+
+* Auto-linking to **docs.python.org**
+
+* Search in docstrings (with **Whoosh**)
+
+* Automatic translation to French, Spanish, etc.
 
 
 ## Package Manager
@@ -219,12 +227,18 @@ stallion-img
 \end{center}
 
 
+<!-- Local IspellDict: english -->
+
 
 <!--  LocalWords:  Raybaut LocalWords Spyder IPython Multiplatform IDE LOC png
 -->
 <!--  LocalWords:  Mathematica WinPython Matlab ipython includegraphics Sympy
  -->
-
-<!-- Local IspellDict: english -->
-<!--  LocalWords:  newcommand
+<!--  LocalWords:  newcommand spyLogo qquad spyPrefs ipyPrefs ipy prefs sympy
+ -->
+<!--  LocalWords:  varExp arrayEd qtconsole vspace Longrightarrow Ctrl MathJax
+ -->
+<!--  LocalWords:  Docstrings doctests dbToolbar bpsPlugin SciPy docstrings
+ -->
+<!--  LocalWords:  Matplotlib conda textbf ccordoba mma docsMma
  -->
