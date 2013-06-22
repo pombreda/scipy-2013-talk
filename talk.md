@@ -146,7 +146,7 @@
 
 * **Check** and **edit** their contents **graphically**
 
-* **More facilities**: plot, copy, remove, etc.
+* **More facilities**: plot, copy, remove variables, etc.
 
 
 ## Interactive help
@@ -155,9 +155,9 @@
 
 * **Read** docstrings in **rich text** (with `Sphinx`)
 
-* Easily **copy/paste doctests** to the Editor or Console
+* **Copy/paste doctests** to the Editor or Console
 
-* **Show math** (through `MathJax`)
+* **Show math** (with `MathJax`)
 
 
 ## Debugging
@@ -172,11 +172,11 @@
 |                                       |                                       |
 +---------------------------------------+---------------------------------------+
 
-* **Debug toolbar** with setp over, step into, continue, etc
+* **Debug toolbar** with `step over`, `step into`, `continue`, etc
 
 * **Set breakpoints** in the Editor
 
-* **Connected** to the **Console**
+* **Synced** with the Console
 
 * **Check** all your **current breakpoints**
 
@@ -189,11 +189,15 @@
 
 nb-img
 
-* A real desktop application
+* Provide a **desktop friendly** version
 
-* Connected to our other plugins
+* **Connected** to our other **plugins**
 
-* We have a **prototype**, waiting for multi-directory support (IPEP 16)
+    \pause
+
+* We already have a **prototype**
+
+    - Waiting for multi-directory support to be merged
 
 
 ## Documentation Center
@@ -203,18 +207,20 @@ nb-img
 
 \mma \quad \docsMma
 
-* Add docs for the language keywords (`if`, `for`, `yield`, etc)
+* Add important **tutorials/intros**, like `SciPy lectures`
 
-* Add important tutorials/intros, like SciPy lectures
+* **Guides** to Spyder and IPython
 
-* Auto-linking to **docs.python.org**
+* **Search** in docstrings (with `Whoosh`)
 
-* Search in docstrings (with **Whoosh**)
+* **Auto-linking** to `docs.python.org`
 
-* Automatic translation to French, Spanish, etc.
+<!-- * Docs for the **language keywords** (`if`, `for`, `yield`, etc) -->
+
+<!-- * Automatic translation to French, Spanish, etc. -->
 
 
-## Package Manager
+## A pretty interface for package managers
 
 stallion-img
 
@@ -243,5 +249,5 @@ stallion-img
  -->
 <!--  LocalWords:  Docstrings doctests dbToolbar bpsPlugin SciPy docstrings
  -->
-<!--  LocalWords:  Matplotlib conda textbf ccordoba mma docsMma
+<!--  LocalWords:  Matplotlib conda textbf ccordoba mma docsMma multi
  -->
