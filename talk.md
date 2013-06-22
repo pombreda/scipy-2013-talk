@@ -36,7 +36,7 @@
     - **Native** Mac App
     - Great support on **Windows**: Python(x,y) / WinPython
 
-* Next version (2.3) will have support for **Python 3**
+* Next version will have support for **Python 3**
 
 
 ## Why a scientific IDE?
@@ -64,7 +64,7 @@
      
 * **Also** to gain **wider adoption**
 
-    - Closer to the big M's: **Matlab** and **Mathematica**
+    - Compete with the big M's: **Matlab** and **Mathematica**
 
 <!-- ----------------------------------------------- -->
 
@@ -79,7 +79,7 @@
 |                                       |                                       |
 |  \centering{\ipyPrefs}                |  \centering{\spyPrefs}                |
 |                                       |                                       |
-|  - **Need** `ipython create profile`  |  - Set trough our **GUI**             |
+|  - Edit **plain-text** files          |  - Set through our **GUI**            |
 |  - **Lots** of options                |  - **Fewer** but more relevant options|
 |  - Only apply on **restart**          |  - Apply on **new** consoles          |
 |                                       |                                       |
@@ -88,7 +88,7 @@
 
 ## Sympy
 
-\newcommand{\sympy}{\includegraphics[width=5cm]{images/spy_sympy.png}}
+\newcommand{\sympy}{\includegraphics[width=5.5cm]{images/spy_sympy.png}}
 
 +---------------------------------------+---------------------------------------+
 |  **IPython**                          |  **Spyder**                           |
@@ -101,14 +101,13 @@
 
 ## Connection to external kernels
 
-\newcommand{\kernels}{\includegraphics[width=5cm]{images/spy_ext_kernels.png}}
+\newcommand{\kernels}{\includegraphics[width=5.5cm]{images/spy_ext_kernels.png}}
 
 +---------------------------------------+---------------------------------------+
 |  **IPython**                          |  **Spyder**                           |
 |                                       |                                       |
 |  - `ipython --existing`               |  \vspace{0.2cm}                       |
 |  - `%qtconsole`                       |  \centering{\kernels}                 |
-|  - No notebooks to external kernels   |                                       |
 |                                       |                                       |
 +---------------------------------------+---------------------------------------+
 
@@ -121,61 +120,65 @@
 
 \centering{\includegraphics[height=3.8cm]{images/editor.png}}
 
-* Great code completion (on imports too) $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{Space}
+* Great **code completion** (on imports too) $\Longrightarrow$
+  \keystroke{Ctrl}+ \keystroke{Space}
 
-* Flags errors and warnings
+* Flags **errors** and **warnings**
 
-* Connected to IPython consoles
+* **Connected** to IPython **consoles** for **evaluation**
+    $\Longrightarrow$ \keystroke{F5} / \keystroke{F9}
 
-* Quick access to docs  $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{I}
+* Quick access to **docs**  $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{I}
 
-* Go to definition $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{Left click}+ `name`
+* **Go to definition** $\Longrightarrow$ \keystroke{Ctrl}+ \keystroke{Left click}+ `name`
 
 
 ## Variable Explorer
 
-\newcommand{\varExp}{\includegraphics[height=4.0cm]{images/variable_explorer.png}}
-\newcommand{\arrayEd}{\includegraphics[height=4.0cm]{images/array_editor.png}}
+\newcommand{\varExp}{\includegraphics[height=4.5cm]{images/variable_explorer.png}}
+\newcommand{\arrayEd}{\includegraphics[height=4.5cm]{images/array_editor.png}}
 
 ------- --------
 \varExp \arrayEd
 ------- --------
 
-* Easily inspect variables defined in each console
+* **Inspect** variables defined in **each console**
 
-* Edit them graphically
+* **Check** and **edit** their contents **graphically**
 
-* Plot them
+* **More facilities**: plot, copy, remove, etc.
 
 
 ## Interactive help
 
 \centering{\includegraphics[height=4.8cm]{images/object_inspector.png}}
 
-* Docstrings in rich text (with **Sphinx**)
+* **Read** docstrings in **rich text** (with `Sphinx`)
 
-* Easily copy/paste doctests
+* Easily **copy/paste doctests** to the Editor or Console
 
-* Render Latex (through **MathJax**)
+* **Show math** (through `MathJax`)
 
 
 ## Debugging
 
 \newcommand{\dbToolbar}{\includegraphics[height=2.0cm]{images/db_toolbar.png}}
-\newcommand{\bpsPlugin}{\includegraphics[width=5.2cm]{images/bps_plugin.png}}
+\newcommand{\bpsPlugin}{\includegraphics[width=5.5cm]{images/bps_plugin.png}}
 
 +---------------------------------------+---------------------------------------+
 |                                       |                                       |
-|  \vspace{-2.3cm}                      |  \bpsPlugin                           |
+|  \vspace{-2.5cm}                      |  \bpsPlugin                           |
 |  \centering{\dbToolbar}               |                                       |
 |                                       |                                       |
 +---------------------------------------+---------------------------------------+
 
-* Debug toolbar
+* **Debug toolbar** with setp over, step into, continue, etc
 
-* Connected to the Editor
+* **Set breakpoints** in the Editor
 
-* Check all your breakpoints
+* **Connected** to the **Console**
+
+* **Check** all your **current breakpoints**
 
 
 <!-- ----------------------------------------------- -->
