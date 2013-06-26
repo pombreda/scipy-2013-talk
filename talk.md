@@ -187,18 +187,15 @@
 
 ## Notebook plugin
 
-nb-img
+\centering{\includegraphics[height=4.7cm]{images/ipynb.png}}
 
-* Provide a **desktop friendly** version
+* Provide a **desktop friendly** version of it
 
 * **Connected** to our other **plugins**
-
-    \pause
 
 * We already have a **prototype**
 
     - Waiting for multi-directory support to be merged
-
 
 ## Documentation Center
 
@@ -220,13 +217,38 @@ nb-img
 <!-- * Automatic translation to French, Spanish, etc. -->
 
 
-## A pretty interface for package managers
+<!-- ----------------------------------------------- -->
 
-stallion-img
 
-* `conda` for scientific packages
+# Conclusions
 
-* `stallion` for everything else
+## What are the advantages?
+
+* Find all in one place
+
+    - Because **"Your train of thought is sacred"** (A. Raskin)
+    - But in a **light-weight** environment
+    
+    \pause
+
+* Use a friendly app
+
+    - With **minimal** effort
+    - Built for **scientists**
+
+    \pause
+
+* **Easy** entry point to use **Scientific Python**
+
+    - For **undergrads**
+    - For your **colleagues**
+
+
+## Demo
+
+\begin{center}
+\LARGE{Time for a live demo}
+\end{center}
 
 
 ## Thank You
@@ -249,5 +271,7 @@ stallion-img
  -->
 <!--  LocalWords:  Docstrings doctests dbToolbar bpsPlugin SciPy docstrings
  -->
-<!--  LocalWords:  Matplotlib conda textbf ccordoba mma docsMma multi
+<!--  LocalWords:  Matplotlib conda textbf ccordoba mma docsMma multi Raskin
+ -->
+<!--  LocalWords:  ipynb
  -->
